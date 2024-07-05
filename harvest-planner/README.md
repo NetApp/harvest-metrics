@@ -18,3 +18,13 @@ docker run --rm \
   ghcr.io/netapp/harvest-planner \
   estimate-memory -i /objects.json
 ```
+
+# Development
+
+Harvest-planner is written in Python and uses [Rye](https://rye.astral.sh/) for development.
+
+To get started, install Rye, clone the repo, cd into `harvest-metrics/harvest-planner` and run the following command:
+
+```bash
+rye sync
+```
