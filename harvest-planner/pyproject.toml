@@ -1,0 +1,27 @@
+[project]
+name = "harvest-planner"
+version = "0.1.0"
+description = "Harvest Planner estimates how much memory each poller needs to monitor ONTAP and StorageGRID clusters"
+dependencies = [
+    "joblib>=1.4.2",
+    "numpy>=2.0.0",
+    "pandas>=2.2.2",
+    "scikit-learn>=1.5.0",
+    "scipy>=1.13.1",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/harvest_planner"]
