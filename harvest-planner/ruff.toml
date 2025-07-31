@@ -1,0 +1,26 @@
+[lint]
+select = [
+    "ARG",
+    "B",
+    "E",
+    "ERA",
+    "F",
+    "I",
+    "ISC",
+    "NPY",
+    "PD",
+    "PERF",
+    "PIE",
+    "PL",
+    "PTH",
+    "PYI",
+    "Q",
+    "RET",
+    "RUF",
+    "S",
+    "SIM",
+    "UP",
+    "YTT",
+]
+
+ignore = ["ISC001"]

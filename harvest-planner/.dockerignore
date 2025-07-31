@@ -1,0 +1,7 @@
+.dockerignore
+.git
+.idea
+.ruff_cache
+.venv
+objects.json
+ruff.toml
